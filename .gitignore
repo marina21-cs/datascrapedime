@@ -11,8 +11,7 @@ ENV/
 dist/
 build/
 
-# Scraped data
-scraped_data/
+# Test data (keep test data excluded)
 test_data/
 
 # Logs
