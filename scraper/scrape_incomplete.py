@@ -2,7 +2,11 @@
 Example: Scrape only Incomplete projects
 """
 
-from dime_scraper import DIMEScraper
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from scraper.dime_scraper import DIMEScraper
 import logging
 
 logging.basicConfig(

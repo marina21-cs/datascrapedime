@@ -43,19 +43,19 @@ Installation:
   pip install -r requirements.txt
 
 Test Setup:
-  python test_scraper.py
+  python scraper/test_scraper.py
 
 Scrape All Data:
-  python dime_scraper.py
+  python scraper/scrape_10k.py
 
 Scrape Completed Only:
-  python scrape_completed.py
+  python scraper/scrape_completed.py
 
 Scrape Incomplete Only:
-  python scrape_incomplete.py
+  python scraper/scrape_incomplete.py
 
 Analyze Data:
-  python analyze_data.py
+  python scraper/analyze_data.py
 
 
 OUTPUT FORMAT

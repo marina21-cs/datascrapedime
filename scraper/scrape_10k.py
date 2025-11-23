@@ -3,7 +3,11 @@ Scrape exactly 10,000 project records from DIME Philippines Dashboard
 Saves data in JSON files with 1000 records each (10 files total if 10k records available)
 """
 
-from dime_scraper import DIMEScraper
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from scraper.dime_scraper import DIMEScraper
 import logging
 
 logging.basicConfig(
